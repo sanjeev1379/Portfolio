@@ -1,0 +1,130 @@
+body{
+margin:0;
+padding:4px;
+font-family:arial, sans-serif;
+}
+
+#header{
+width:100%;
+height:60px;
+background-color:black;
+}
+
+#menu{
+width:1024px;
+margin:4px auto;
+color:yellow;
+}
+
+h2{
+margin:2px;
+}
+
+#portfolio{
+list-style-type:none;
+padding-left: 0px;
+}
+
+#wrapper{
+width:1024px;
+min-height:500px;
+margin:0px auto;
+}
+
+#portfolio li{
+display: inline-block;
+margin:10px 5px 10px 5px;
+}
+
+#portfolio li img{
+width:240px;
+height:170px;
+}
+
+#portfolio li  img:hover{
+cursor:pointer;
+}
+
+#overlay:hover{ 
+cursor:pointer;
+}
+
+#main:hover{
+cursor:pointer;
+}
+
+#frame{
+position:fixed;
+display:none;
+left:50%;
+background-color:white;
+width:700px;
+height:530px;
+margin-left:-350px;
+margin-top:15px;
+padding-bottom:20px;
+padding-top:20px;
+}
+
+#main {
+width:660px;
+margin-left:20px;
+}
+
+#overlay{
+display:none;
+width:100%;
+height:100%;
+position:fixed;
+background-color:black;
+opacity:0.7;
+}
+
+#frame_table{
+position:absolute;
+width:660px;
+margin-left:20px;
+}
+
+#right{
+float:right;
+}
+
+#left{
+float:left;
+}
+
+#left_image{
+width:90px;
+height:90px;
+margin-left:-3px;
+}
+
+#right_image{
+width:90px;
+height:90px;
+margin-right:-3px;
+}
+
+#right , #left{
+position:relative;
+top:200px;
+opacity:0.25;
+}
+
+#description{
+ background-color:white;
+ padding-bottom:10px;
+}
+
+#description p{
+margin-left:20px;
+}
+
+#filter li{
+display:inline;
+}
+
+#filter li.active{
+text-decoration:underline;
+}
